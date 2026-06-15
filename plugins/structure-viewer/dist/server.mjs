@@ -31630,7 +31630,7 @@ var structureViewerBundleChunkInputSchema = external_exports3.object({
 function createStructureViewerServer() {
   const server = new McpServer({
     name: "structure-viewer",
-    version: "0.1.8"
+    version: "0.1.9"
   });
   createOpenAICapabilities(server);
   const commandStore = new StructureViewerCommandStore();
