@@ -2178,6 +2178,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools"
+    },
+    {
+      "name": "biohub-esm",
+      "source": {
+        "source": "local",
+        "path": "./plugins/biohub-esm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
     }
   ]
 }

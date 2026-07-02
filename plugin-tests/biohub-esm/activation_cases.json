@@ -1,0 +1,13 @@
+[
+  {"prompt": "Which Biohub ESM route should I use for 500 designed sequences?", "expected": "biohub-esm"},
+  {"prompt": "Check whether my ESM API and Modal credentials are configured without showing them.", "expected": "biohub-esm-setup"},
+  {"prompt": "Use ESMC embeddings and masked-residue logits to rank mutations.", "expected": "esmc"},
+  {"prompt": "Predict the all-atom structure of this protein-DNA-ligand complex.", "expected": "esmfold2"},
+  {"prompt": "Search ESM Atlas for related proteins and inspect the least-characterized clusters.", "expected": "esm-atlas"},
+  {"prompt": "Design a realistic minibinder campaign with ESMFold2 on Modal.", "expected": "esmfold2-binder-design"},
+  {"prompt": "Use Clustal Omega to align these sequences.", "expected": null},
+  {"prompt": "Run AlphaFold3 on this complex.", "expected": null},
+  {"prompt": "Use Boltz to dock this ligand.", "expected": null},
+  {"prompt": "Show me a road atlas of California.", "expected": null},
+  {"prompt": "Fine-tune GPT for customer support.", "expected": null}
+]

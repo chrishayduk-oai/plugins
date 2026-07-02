@@ -1,0 +1,6 @@
+interface:
+  display_name: "Biohub ESM Setup"
+  short_description: "Install, preflight, and diagnose ESM access"
+  default_prompt: "Check my Biohub ESM, Atlas, Modal, and Hugging Face setup without revealing any credentials."
+policy:
+  allow_implicit_invocation: false

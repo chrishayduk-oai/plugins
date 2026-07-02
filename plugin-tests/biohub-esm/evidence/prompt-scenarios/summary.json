@@ -1,0 +1,85 @@
+{
+  "all_passed": true,
+  "codex_cli": "codex-cli 0.143.0-alpha.33",
+  "generated_at": "2026-07-02T02:46:27.850151Z",
+  "marketplace": "lsc110-local",
+  "model": "gpt-5.6-sol",
+  "plugin": "biohub-esm",
+  "plugin_source_tree_sha256": "1a5cd775b669843327a79e90278373a2138f25ff5580272535f2d14be39859bd",
+  "raw_evidence_archive": {
+    "media_type": "application/gzip",
+    "members": [
+      "install.json",
+      "source-tree.json",
+      "01-esmc/events.jsonl",
+      "01-esmc/final.txt",
+      "01-esmc/prompt.txt",
+      "01-esmc/run.json",
+      "02-esmfold2/events.jsonl",
+      "02-esmfold2/final.txt",
+      "02-esmfold2/prompt.txt",
+      "02-esmfold2/run.json",
+      "03-atlas/events.jsonl",
+      "03-atlas/final.txt",
+      "03-atlas/prompt.txt",
+      "03-atlas/run.json",
+      "04-binder/events.jsonl",
+      "04-binder/final.txt",
+      "04-binder/prompt.txt",
+      "04-binder/run.json",
+      "05-negative/events.jsonl",
+      "05-negative/final.txt",
+      "05-negative/prompt.txt",
+      "05-negative/run.json"
+    ],
+    "path": "artifacts.tar.gz",
+    "sha256": "c42e4cb39f76cddc5b5eee321d2e52e264aa4705fe5dbfb8165c8be2026182ad",
+    "size_bytes": 69621
+  },
+  "reasoning_effort": "xhigh",
+  "sandbox": "read-only",
+  "scenario_count": 5,
+  "scenarios": [
+    {
+      "elapsed_seconds": 58.603547,
+      "events_sha256": "d2266b648b38b8e119b172dfe87b4eb775c587a3304c620ceaa8c9fcfd36d0dd",
+      "expected_activation": "router + esmc",
+      "final_sha256": "a89d2ef6077bf2d12b94456d311892bedb7cbf7b30998c580c0373dee46b4e93",
+      "id": "01-esmc",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 143.84607,
+      "events_sha256": "2db0007a2b9b467047685de80c2a8a553dcd066205491a061bbb304ea3daac7a",
+      "expected_activation": "router + esmfold2",
+      "final_sha256": "87727285327071d68ed984d4d37918cc8151e018db2cdba523b9134483555f84",
+      "id": "02-esmfold2",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 95.277817,
+      "events_sha256": "2d85ad845b2ab3be67f32063db7818deb9977b0e083b82a4171c92e84677e496",
+      "expected_activation": "router + esm-atlas",
+      "final_sha256": "eba17d69146b69007b8e1ac38710ee76170e2dbed80eed95caf1c8ee41b0f9cb",
+      "id": "03-atlas",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 32.691484,
+      "events_sha256": "90e0c8b67a437eeeb6f63f6d3b59113e56a3ca4f69c0afe990bdd9e906aca727",
+      "expected_activation": "router + binder design",
+      "final_sha256": "53bb9b61173e95f175bb9dcab5cba716e06a7db98de4f89ee9045e302dd057fe",
+      "id": "04-binder",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 7.33691,
+      "events_sha256": "f4b6a9a90bc9c537c9409f7bc0b24025fcb7a8d20bfcea1aff73555df8ecdc74",
+      "expected_activation": "no Biohub ESM activation",
+      "final_sha256": "acf1550a6b6ec2c260b59c4b0858efabac0a46dce67cb76c75cbcf1f21c906f7",
+      "id": "05-negative",
+      "returncode": 0
+    }
+  ],
+  "schema_version": "1.0"
+}

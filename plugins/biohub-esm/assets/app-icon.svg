@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Biohub ESM</title>
+  <desc id="desc">An abstract protein ribbon crossing a learned feature map.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2f31"/>
+      <stop offset="1" stop-color="#17645d"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ce3d1"/>
+      <stop offset="0.5" stop-color="#f5d66d"/>
+      <stop offset="1" stop-color="#ff8f73"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#001f20" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="#b7fff1" opacity=".55">
+    <circle cx="108" cy="132" r="10"/><circle cx="173" cy="88" r="7"/>
+    <circle cx="414" cy="126" r="9"/><circle cx="432" cy="210" r="6"/>
+    <circle cx="94" cy="376" r="8"/><circle cx="398" cy="397" r="10"/>
+  </g>
+  <g stroke="#8ce5d5" stroke-width="4" opacity=".32">
+    <path d="M108 132 173 88M414 126l18 84M94 376l64-32M398 397l-54-48"/>
+  </g>
+  <path d="M104 280c50-128 120-154 188-66 39 50 71 54 116-5" fill="none" stroke="#d8fff7" stroke-width="30" stroke-linecap="round" opacity=".22"/>
+  <path d="M103 304c59 98 123 103 173 17 45-76 82-92 135-33" fill="none" stroke="url(#ribbon)" stroke-width="36" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M129 238c42-78 95-81 143-10 51 76 95 69 121 20" fill="none" stroke="url(#ribbon)" stroke-width="22" stroke-linecap="round" filter="url(#shadow)"/>
+  <g fill="#f7fffd">
+    <circle cx="103" cy="304" r="13"/><circle cx="411" cy="288" r="13"/>
+    <circle cx="129" cy="238" r="9"/><circle cx="393" cy="248" r="9"/>
+  </g>
+</svg>

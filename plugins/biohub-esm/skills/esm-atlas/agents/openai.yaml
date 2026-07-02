@@ -1,0 +1,6 @@
+interface:
+  display_name: "ESM Atlas"
+  short_description: "Search proteins, features, structures, and clusters"
+  default_prompt: "Find proteins in ESM Atlas with a similar learned functional signature and inspect their clusters."
+policy:
+  allow_implicit_invocation: false

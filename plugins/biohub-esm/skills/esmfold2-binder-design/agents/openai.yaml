@@ -1,0 +1,6 @@
+interface:
+  display_name: "ESMFold2 Binder Design"
+  short_description: "Design binders on Modal or private GPUs"
+  default_prompt: "Plan an ESMFold2 binder-design campaign and explain realistic compute and validation needs."
+policy:
+  allow_implicit_invocation: false

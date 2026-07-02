@@ -1,0 +1,6 @@
+interface:
+  display_name: "ESMFold2"
+  short_description: "Fold all-atom biomolecular complexes"
+  default_prompt: "Predict this biomolecular complex with ESMFold2 and explain confidence and limitations."
+policy:
+  allow_implicit_invocation: false

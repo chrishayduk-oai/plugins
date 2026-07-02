@@ -1,0 +1,6 @@
+interface:
+  display_name: "ESMC"
+  short_description: "Represent proteins and score sequence mutations"
+  default_prompt: "Use ESMC to identify constrained residues and rank candidate mutations in this protein."
+policy:
+  allow_implicit_invocation: false

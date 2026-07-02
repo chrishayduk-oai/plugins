@@ -1,0 +1,6 @@
+interface:
+  display_name: "Biohub ESM Router"
+  short_description: "Route ESMC, ESMFold2, Atlas, and compute"
+  default_prompt: "Route this protein workflow to the right Biohub ESM model, data API, and execution provider."
+policy:
+  allow_implicit_invocation: true

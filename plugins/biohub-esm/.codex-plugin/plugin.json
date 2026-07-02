@@ -1,0 +1,52 @@
+{
+  "name": "biohub-esm",
+  "version": "0.1.0",
+  "description": "Route and run ESMC, ESMFold2, ESM Atlas, and ESMFold2 binder-design workflows.",
+  "author": {
+    "name": "Biohub",
+    "email": "support@biohub.org",
+    "url": "https://biohub.ai"
+  },
+  "homepage": "https://biohub.ai/esm/protein",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "biohub",
+    "esm",
+    "esmc",
+    "esmfold2",
+    "esm-atlas",
+    "protein-language-model",
+    "structure-prediction",
+    "protein-design",
+    "computational-biology",
+    "modal",
+    "hugging-face"
+  ],
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Biohub ESM",
+    "shortDescription": "Route ESMC, ESMFold2, Atlas, and binder-design workflows",
+    "longDescription": "Use Biohub ESM from Codex for protein representations and mutation analysis with ESMC, all-atom biomolecular structure prediction with ESMFold2, public protein discovery with ESM Atlas, and compute-aware binder design on Modal or private infrastructure.",
+    "developerName": "Biohub",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://biohub.ai/esm/protein",
+    "privacyPolicyURL": "https://biohub.org/privacy-policy/",
+    "termsOfServiceURL": "https://biohub.org/terms-of-use/",
+    "brandColor": "#123C3A",
+    "composerIcon": "./assets/app-icon.svg",
+    "logo": "./assets/app-icon.svg",
+    "screenshots": [
+      "./assets/screenshot-1.png"
+    ],
+    "defaultPrompt": [
+      "Use ESMC to rank constrained residues and candidate mutations",
+      "Predict this protein complex with ESMFold2 and explain confidence",
+      "Search ESM Atlas for related proteins and inspect their clusters"
+    ]
+  }
+}
